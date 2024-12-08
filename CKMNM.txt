@@ -17,3 +17,5 @@ git checkout q: chuyển nhánh tới q
 git push -u origin q : là push lên nhánh q
 git branch -d q: xóa nhánh q ở local
 git push origin -d : xóa nhánh ở git web
+
+"a1" 

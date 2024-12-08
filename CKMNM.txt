@@ -1,0 +1,19 @@
+git init
+
+git remote add origin https://github.com/Quyen8203/ckmnm.git
+
+git push -u origin main (push len git)
+
+Thêm tất cả các file vào Git:
+git add .
+
+Commit các thay đổi:
+git commit -m "Initial commit"  (trong nháy là thông điệp của lần commit)
+
+
+git checkout -b q :phân nhánh, nhưng khi thực thi lệnh thì chuyển tới q
+git branch q : tạo phân nhánh tên q nhung k chuyển tới q
+git checkout q: chuyển nhánh tới q
+git push -u origin q : là push lên nhánh q
+git branch -d q: xóa nhánh q ở local
+git push origin -d : xóa nhánh ở git web
